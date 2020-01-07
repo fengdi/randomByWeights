@@ -1,20 +1,21 @@
 # randomByWeights
 
-#### Introduction
+#### introduction
 Returns the index based on the array weight probability.
 
 #### install
 
-1.  `npm i randombyweights`
+ `npm i randombyweights`
 
 #### use
 
-param {array}  weights  Probabilitys
-return {Number} Index
+@param {array}  Probabilitys
+
+@return {Number} Index
 
 ```javascript
 const randomByWeights = require('randombyweights');
-let randonIndex = randombyweights([3,4,5]); // 0:3/12   1:4/12   2:5/12
+let randomIndex = randombyweights([3,4,5]); // 0:3/12   1:4/12   2:5/12
 ```
 
 
@@ -29,5 +30,5 @@ let randonIndex = randombyweights([3,4,5]); // 0:3/12   1:4/12   2:5/12
 
 - [0.02, 0.94, 0.03, 0.01] is equivalent to the above [2, 94, 3, 1] (related to the ratio)
 
-- Note: not array returns -1 and weight sum is 0 (eg [0,0,0]) returns -1
+- Note: not array returns -1 and weight sum is 0 (eg [0, 0, 0]) returns -1
 
