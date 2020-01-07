@@ -23,4 +23,4 @@ var randomByWeights = function(boxProbabilitys){
 };
 
 
-exports = randomByWeights
+module.exports = randomByWeights

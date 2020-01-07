@@ -1,14 +1,18 @@
 # randomByWeights
 
 #### 介绍
+Returns the index based on the array weight probability.
 根据数组权重概率返回下标
 
 
-#### 安装教程
+#### install
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  `npm i randombyweights`
+
+2.  `const randomByWeights = require('randombyweights'); ` or `import default from "randombyweights";`
+
+3.  `let randonIndex = randombyweights([3,4,5]);`
+
 
 #### 使用说明
 
