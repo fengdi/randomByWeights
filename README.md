@@ -9,7 +9,7 @@ Returns the index based on the array weight probability.
 
 #### use
 
-@param {array}  Probabilitys
+@param {Array}  Probabilitys
 
 @return {Number} Index
 
