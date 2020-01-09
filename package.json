@@ -1,7 +1,7 @@
 {
   "name": "randombyweights",
-  "version": "1.0.3",
-  "description": "#### Description 根据数组权重概率返回下标",
+  "version": "1.0.4",
+  "description": "Returns the index based on the array weight probability.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
